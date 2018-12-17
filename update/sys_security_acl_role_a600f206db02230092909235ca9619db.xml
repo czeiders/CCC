@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-29 22:38:42</sys_created_on>
+        <sys_id>a600f206db02230092909235ca9619db</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_87711_annual_fun_funding_request.x_87711_annual_fun.funding_request_user</sys_name>
+        <sys_package display_value="Annual Funding Requests" source="x_87711_annual_fun">262d2e02db02230092909235ca961955</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Annual Funding Requests">262d2e02db02230092909235ca961955</sys_scope>
+        <sys_security_acl display_value="x_87711_annual_fun_funding_request">6e00f206db02230092909235ca9619d8</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_a600f206db02230092909235ca9619db</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-29 22:38:42</sys_updated_on>
+        <sys_user_role display_value="x_87711_annual_fun.funding_request_user" name="x_87711_annual_fun.funding_request_user">d200f642db02230092909235ca9619d7</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>
