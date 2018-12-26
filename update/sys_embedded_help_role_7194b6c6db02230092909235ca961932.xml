@@ -1,15 +1,18 @@
-<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_embedded_help_role">
     <sys_embedded_help_role action="INSERT_OR_UPDATE">
         <order>1000</order>
         <role display_value="x_87711_annual_fun.approvers_user" name="x_87711_annual_fun.approvers_user">7194b6c6db02230092909235ca961930</role>
         <sys_class_name>sys_embedded_help_role</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-11-29 22:58:35</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>7194b6c6db02230092909235ca961932</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>7194b6c6db02230092909235ca961930</sys_name>
         <sys_package display_value="Annual Funding Requests" source="x_87711_annual_fun">262d2e02db02230092909235ca961955</sys_package>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Annual Funding Requests">262d2e02db02230092909235ca961955</sys_scope>
         <sys_update_name>sys_embedded_help_role_7194b6c6db02230092909235ca961932</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
