@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><database>
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
     <element label="Approvers" max_length="40" name="x_87711_annual_fun_approvers" type="collection">
         <element label="Agency Name" max_length="21" name="agency_name" type="string"/>
         <element label="Approver name" max_length="50" name="approver_name" type="string"/>

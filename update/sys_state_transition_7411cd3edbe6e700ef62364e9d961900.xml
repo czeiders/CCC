@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_state_transition">
+    <sys_state_transition action="INSERT_OR_UPDATE">
+        <description>Submitted--&gt;Canceled</description>
+        <enter_condition table="x_87711_annual_fun_funding_request">state=1^EQ<item endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="1"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </enter_condition>
+        <exit_condition/>
+        <order>40</order>
+        <state>5</state>
+        <state_label>Canceled</state_label>
+        <state_model display_value="Funding Request - Normal">483914f6dba6e700ef62364e9d96192d</state_model>
+        <sys_class_name>sys_state_transition</sys_class_name>
+        <sys_created_by>czeiders</sys_created_by>
+        <sys_created_on>2018-12-26 19:01:20</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>7411cd3edbe6e700ef62364e9d961900</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Canceled</sys_name>
+        <sys_package display_value="Annual Funding Requests" source="x_87711_annual_fun">262d2e02db02230092909235ca961955</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Annual Funding Requests">262d2e02db02230092909235ca961955</sys_scope>
+        <sys_update_name>sys_state_transition_7411cd3edbe6e700ef62364e9d961900</sys_update_name>
+        <sys_updated_by>czeiders</sys_updated_by>
+        <sys_updated_on>2018-12-26 19:01:20</sys_updated_on>
+        <terminal_state>true</terminal_state>
+    </sys_state_transition>
+</record_update>

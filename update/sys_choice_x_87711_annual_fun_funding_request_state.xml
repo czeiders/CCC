@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="state" table="x_87711_annual_fun_funding_request" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Draft</label>
+            <language>en</language>
+            <name>x_87711_annual_fun_funding_request</name>
+            <sequence>0</sequence>
+            <sys_created_by>czeiders</sys_created_by>
+            <sys_created_on>2018-12-26 16:11:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ea4a5cf6dba6e700ef62364e9d961987</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>czeiders</sys_updated_by>
+            <sys_updated_on>2018-12-26 16:11:16</sys_updated_on>
+            <value>-5</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Canceled</label>
+            <language>en</language>
+            <name>x_87711_annual_fun_funding_request</name>
+            <sequence>1</sequence>
+            <sys_created_by>czeiders</sys_created_by>
+            <sys_created_on>2018-12-26 16:11:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ee4a5cf6dba6e700ef62364e9d96198b</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>czeiders</sys_updated_by>
+            <sys_updated_on>2018-12-26 17:55:21</sys_updated_on>
+            <value>5</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Submitted</label>
+            <language>en</language>
+            <name>x_87711_annual_fun_funding_request</name>
+            <sequence>2</sequence>
+            <sys_created_by>czeiders</sys_created_by>
+            <sys_created_on>2018-12-26 16:11:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>224a5cf6dba6e700ef62364e9d96198a</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>czeiders</sys_updated_by>
+            <sys_updated_on>2018-12-26 18:34:09</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Approved</label>
+            <language>en</language>
+            <name>x_87711_annual_fun_funding_request</name>
+            <sequence>3</sequence>
+            <sys_created_by>czeiders</sys_created_by>
+            <sys_created_on>2018-12-26 16:11:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ae4a5cf6dba6e700ef62364e9d96198d</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>czeiders</sys_updated_by>
+            <sys_updated_on>2018-12-26 18:34:09</sys_updated_on>
+            <value>10</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Not Approved</label>
+            <language>en</language>
+            <name>x_87711_annual_fun_funding_request</name>
+            <sequence>4</sequence>
+            <sys_created_by>czeiders</sys_created_by>
+            <sys_created_on>2018-12-26 16:11:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>264a5cf6dba6e700ef62364e9d96199c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>czeiders</sys_updated_by>
+            <sys_updated_on>2018-12-26 16:11:16</sys_updated_on>
+            <value>15</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Recommended For Approval</label>
+            <language>en</language>
+            <name>x_87711_annual_fun_funding_request</name>
+            <sequence>5</sequence>
+            <sys_created_by>czeiders</sys_created_by>
+            <sys_created_on>2018-12-26 18:36:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>be6b787adbe6e700ef62364e9d961903</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>czeiders</sys_updated_by>
+            <sys_updated_on>2018-12-26 18:36:01</sys_updated_on>
+            <value>20</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Funds Received</label>
+            <language>en</language>
+            <name>x_87711_annual_fun_funding_request</name>
+            <sequence>6</sequence>
+            <sys_created_by>czeiders</sys_created_by>
+            <sys_created_on>2018-12-26 18:36:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7e6b787adbe6e700ef62364e9d961905</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>czeiders</sys_updated_by>
+            <sys_updated_on>2018-12-26 18:36:01</sys_updated_on>
+            <value>25</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <name>x_87711_annual_fun_funding_request</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>czeiders</sys_created_by>
+            <sys_created_on>2018-12-26 16:11:16</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>ea4a5cf6dba6e700ef62364e9d961989</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>state</sys_name>
+            <sys_package display_value="Annual Funding Requests" source="x_87711_annual_fun">262d2e02db02230092909235ca961955</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Annual Funding Requests">262d2e02db02230092909235ca961955</sys_scope>
+            <sys_update_name>sys_choice_x_87711_annual_fun_funding_request_state</sys_update_name>
+            <sys_updated_by>czeiders</sys_updated_by>
+            <sys_updated_on>2018-12-26 16:11:16</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

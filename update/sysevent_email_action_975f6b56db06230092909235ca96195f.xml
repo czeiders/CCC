@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sysevent_email_action">
     <sysevent_email_action action="INSERT_OR_UPDATE">
         <action_insert>true</action_insert>
         <action_update>true</action_update>
@@ -45,7 +46,7 @@
         <order>100</order>
         <push_message_only>true</push_message_only>
         <recipient_fields/>
-        <recipient_groups name="Funding Request Approvers">aeb5be9edb42230092909235ca96190e</recipient_groups>
+        <recipient_groups>aeb5be9edb42230092909235ca96190e</recipient_groups>
         <recipient_users/>
         <reply_to/>
         <send_self>true</send_self>
@@ -56,6 +57,7 @@
         <sys_class_name>sysevent_email_action</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-11-30 21:58:55</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>975f6b56db06230092909235ca96195f</sys_id>
@@ -64,6 +66,7 @@
         <sys_overrides/>
         <sys_package display_value="Annual Funding Requests" source="x_87711_annual_fun">262d2e02db02230092909235ca961955</sys_package>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Annual Funding Requests">262d2e02db02230092909235ca961955</sys_scope>
         <sys_update_name>sysevent_email_action_975f6b56db06230092909235ca96195f</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
