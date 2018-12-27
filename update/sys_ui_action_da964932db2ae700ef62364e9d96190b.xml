@@ -5,7 +5,7 @@
         <active>true</active>
         <client>false</client>
         <comments>Transitions Submitted to Canceled.   Note that Canceled is a terminal state.</comments>
-        <condition>current.state==1</condition>
+        <condition>gs.hasRole('x_87711_annual_fun.funding_request_user') &amp;&amp; current.state==1</condition>
         <form_action>true</form_action>
         <form_button>true</form_button>
         <form_context_menu>false</form_context_menu>
@@ -55,7 +55,7 @@ function serverOnSubmitForApproval() {
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>da964932db2ae700ef62364e9d96190b</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Cancel Funding Request</sys_name>
         <sys_overrides/>
         <sys_package display_value="Annual Funding Requests" source="x_87711_annual_fun">262d2e02db02230092909235ca961955</sys_package>
@@ -63,8 +63,8 @@ function serverOnSubmitForApproval() {
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Annual Funding Requests">262d2e02db02230092909235ca961955</sys_scope>
         <sys_update_name>sys_ui_action_da964932db2ae700ef62364e9d96190b</sys_update_name>
-        <sys_updated_by>czeiders</sys_updated_by>
-        <sys_updated_on>2018-12-26 19:27:58</sys_updated_on>
+        <sys_updated_by>kpadwal</sys_updated_by>
+        <sys_updated_on>2018-12-27 13:55:33</sys_updated_on>
         <table>x_87711_annual_fun_funding_request</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>
