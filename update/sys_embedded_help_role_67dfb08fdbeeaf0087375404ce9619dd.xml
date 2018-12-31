@@ -1,18 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_embedded_help_role">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
     <sys_embedded_help_role action="INSERT_OR_UPDATE">
         <order>1000</order>
         <role display_value="x_87711_annual_fun.ccc_budget_officer" name="x_87711_annual_fun.ccc_budget_officer">fcdf348fdbeeaf0087375404ce96192a</role>
         <sys_class_name>sys_embedded_help_role</sys_class_name>
         <sys_created_by>kpadwal</sys_created_by>
         <sys_created_on>2018-12-27 13:33:56</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>67dfb08fdbeeaf0087375404ce9619dd</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>fcdf348fdbeeaf0087375404ce96192a</sys_name>
         <sys_package display_value="Annual Funding Requests" source="x_87711_annual_fun">262d2e02db02230092909235ca961955</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Annual Funding Requests">262d2e02db02230092909235ca961955</sys_scope>
         <sys_update_name>sys_embedded_help_role_67dfb08fdbeeaf0087375404ce9619dd</sys_update_name>
         <sys_updated_by>kpadwal</sys_updated_by>
