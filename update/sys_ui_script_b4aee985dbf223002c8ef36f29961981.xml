@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_script">
+    <sys_ui_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description/>
+        <global>false</global>
+        <name>x_87711_annual_fun.FRFieldValidation</name>
+        <script><![CDATA[var x_87711_annual_fun = x_87711_annual_fun || {};
+	
+	x_87711_annual_fun.FRFieldValidation = (function() {
+		"use strict";
+		
+		/* set your private variables and functions here. For example:
+		var privateVar = 0;
+		function private_function() {
+			return ++privateVar;
+		}
+ 		*/
+		
+		/* Share variables between multiple UI scripts by adding them to your scope object. For example:
+		x_87711_annual_fun.sharedVar = 0;
+		
+		Then access them in your scripts the same way. For example:
+		function get_shared() {
+			return x_87711_annual_fun.sharedVar;
+		}
+ 		*/
+		
+		return {
+			
+			/* set your public API here. For example:
+			incrementAndReturnPrivateVar: function() {
+				return private_function();
+			},
+ 			*/
+			myFirstFunction: function() {
+				alert("Inside myFirstFunction in FRFieldValidation UI Script.");
+				return true;
+			},
+			
+			type:  "FRFieldValidation"
+		};
+	})();
+	]]></script>
+        <script_name>FRFieldValidation</script_name>
+        <sys_class_name>sys_ui_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-02 22:06:27</sys_created_on>
+        <sys_id>b4aee985dbf223002c8ef36f29961981</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>x_87711_annual_fun.FRFieldValidation</sys_name>
+        <sys_package display_value="Annual Funding Requests" source="x_87711_annual_fun">262d2e02db02230092909235ca961955</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Annual Funding Requests">262d2e02db02230092909235ca961955</sys_scope>
+        <sys_update_name>sys_ui_script_b4aee985dbf223002c8ef36f29961981</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-02 22:07:37</sys_updated_on>
+        <ui_type>0</ui_type>
+        <use_scoped_format>true</use_scoped_format>
+    </sys_ui_script>
+</record_update>

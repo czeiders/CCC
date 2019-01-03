@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Test Client Script for the Program Name Field</description>
+        <field>program_name</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Test Client Script</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+	if (isLoading || newValue === '') {
+		return;
+	}
+	try{
+		if(newValue.includes("foo")) {
+			//alert("Program Name contains foo.");
+			jslog("FUNDING REQUEST: in the contain foo true clause");
+			g_form.showErrorBox("program_name","contains foo",true);
+		}
+		else
+			{
+			alert("Program Name does NOT contain foo.");
+		}
+	}
+	catch(err) {
+		jslog('FUNDING REQUEST: A JavaScript runtime error occurred: ' + err.message);
+	}
+	//Type appropriate comment here, and begin script below
+	
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-02 19:11:01</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>99a5c94ddb7223002c8ef36f299619f4</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Test Client Script</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Annual Funding Requests" source="x_87711_annual_fun">262d2e02db02230092909235ca961955</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Annual Funding Requests">262d2e02db02230092909235ca961955</sys_scope>
+        <sys_update_name>sys_script_client_99a5c94ddb7223002c8ef36f299619f4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-02 19:42:52</sys_updated_on>
+        <table>x_87711_annual_fun_funding_request</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

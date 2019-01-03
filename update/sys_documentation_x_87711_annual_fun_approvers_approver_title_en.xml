@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
+<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_documentation element="approver_title" label="Approver Title" language="en" table="x_87711_annual_fun_approvers">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>approver_title</element>
@@ -12,13 +11,11 @@
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2018-11-29 22:59:35</sys_created_on>
-            <sys_customer_update>false</sys_customer_update>
             <sys_id>e4d4f6c6db02230092909235ca96192c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>Approver Title</sys_name>
             <sys_package display_value="Annual Funding Requests" source="x_87711_annual_fun">262d2e02db02230092909235ca961955</sys_package>
             <sys_policy/>
-            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="Annual Funding Requests">262d2e02db02230092909235ca961955</sys_scope>
             <sys_update_name>sys_documentation_x_87711_annual_fun_approvers_approver_title_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>

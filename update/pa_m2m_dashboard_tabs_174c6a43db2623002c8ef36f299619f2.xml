@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_m2m_dashboard_tabs">
+    <pa_m2m_dashboard_tabs action="INSERT_OR_UPDATE">
+        <dashboard display_value="System Administration">9b4c6a43db2623002c8ef36f299619ec</dashboard>
+        <home>false</home>
+        <homepage display_value="System Administration">c6336292eb830100d4360c505206fe36</homepage>
+        <order>1</order>
+        <sys_class_name>pa_m2m_dashboard_tabs</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-12-27 21:27:41</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>174c6a43db2623002c8ef36f299619f2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>9b4c6a43db2623002c8ef36f299619ec</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Annual Funding Requests" source="x_87711_annual_fun">262d2e02db02230092909235ca961955</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Annual Funding Requests">262d2e02db02230092909235ca961955</sys_scope>
+        <sys_update_name>pa_m2m_dashboard_tabs_174c6a43db2623002c8ef36f299619f2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-27 21:27:41</sys_updated_on>
+        <tab display_value="New Tab">174c6a43db2623002c8ef36f299619f0</tab>
+    </pa_m2m_dashboard_tabs>
+</record_update>
