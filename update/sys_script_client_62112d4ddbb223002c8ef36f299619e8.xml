@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Submit Validation</description>
+        <field>active</field>
+        <global>false</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Submit Validation</name>
+        <order/>
+        <script><![CDATA[function onSubmit() {
+	//Type appropriate comment here, and begin script below
+	
+	alert("Inside Submit Validation Client Script, tyring to invoke a function in the UI Script");
+	
+	/*var sd = g_form.getValue('short_description');
+	if (sd.includes("foo")) {
+		alert("Short description contains foo, cannot submit.");
+		return false;
+	}
+	else { */
+		g_ui_scripts.getUIScript('FRFieldValidation').then(function(script) {
+			script.myFirstFunction();
+		}, function() {
+			console.log('The script did not load');
+		});
+		
+	
+	//alert("Short description does not contain foo, will submit");
+	
+	//}
+	return true;
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-02 21:09:39</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>62112d4ddbb223002c8ef36f299619e8</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>Submit Validation</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Annual Funding Requests" source="x_87711_annual_fun">262d2e02db02230092909235ca961955</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Annual Funding Requests">262d2e02db02230092909235ca961955</sys_scope>
+        <sys_update_name>sys_script_client_62112d4ddbb223002c8ef36f299619e8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-02 22:31:13</sys_updated_on>
+        <table>x_87711_annual_fun_funding_request</table>
+        <type>onSubmit</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>
