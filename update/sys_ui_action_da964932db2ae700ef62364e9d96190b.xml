@@ -1,17 +1,20 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update sys_domain="global" table="sys_ui_action">
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
     <sys_ui_action action="INSERT_OR_UPDATE">
         <action_name>Cancel</action_name>
         <active>true</active>
         <client>false</client>
+        <client_script_v2/>
         <comments>Transitions Submitted to Canceled.   Note that Canceled is a terminal state.</comments>
         <condition>gs.hasRole('x_87711_annual_fun.funding_request_user') &amp;&amp; current.state==1</condition>
         <form_action>true</form_action>
         <form_button>true</form_button>
+        <form_button_v2>false</form_button_v2>
         <form_context_menu>false</form_context_menu>
         <form_link>false</form_link>
+        <form_menu_button_v2>false</form_menu_button_v2>
         <form_style/>
         <hint/>
+        <isolate_script>false</isolate_script>
         <list_action>false</list_action>
         <list_banner_button>false</list_banner_button>
         <list_button>false</list_button>
@@ -51,7 +54,6 @@ function serverOnSubmitForApproval() {
         <sys_class_name>sys_ui_action</sys_class_name>
         <sys_created_by>czeiders</sys_created_by>
         <sys_created_on>2018-12-26 19:26:45</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>da964932db2ae700ef62364e9d96190b</sys_id>
@@ -60,7 +62,6 @@ function serverOnSubmitForApproval() {
         <sys_overrides/>
         <sys_package display_value="Annual Funding Requests" source="x_87711_annual_fun">262d2e02db02230092909235ca961955</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Annual Funding Requests">262d2e02db02230092909235ca961955</sys_scope>
         <sys_update_name>sys_ui_action_da964932db2ae700ef62364e9d96190b</sys_update_name>
         <sys_updated_by>kpadwal</sys_updated_by>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Stage Set" max_length="40" name="stage_set" type="collection">
+        <element label="Stage" max_length="80" name="u_stage" type="workflow"/>
+    </element>
+</database>

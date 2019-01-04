@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="x_87711_annual_fun_stage" label="Stage" language="en" table="stage_set_table">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>x_87711_annual_fun_stage</element>
+            <help/>
+            <hint/>
+            <label>Stage</label>
+            <language>en</language>
+            <name>stage_set_table</name>
+            <plural>Stages</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-01-02 21:10:25</sys_created_on>
+            <sys_id>f0e12dc9dbb2230092909235ca96194d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Stage</sys_name>
+            <sys_package display_value="Annual Funding Requests" source="x_87711_annual_fun">262d2e02db02230092909235ca961955</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Annual Funding Requests">262d2e02db02230092909235ca961955</sys_scope>
+            <sys_update_name>sys_documentation_stage_set_table_x_87711_annual_fun_stage_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-01-02 21:10:25</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
