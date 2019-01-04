@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <condition/>
+        <conditional>false</conditional>
+        <name>Funding Request Approval Reminder Notification</name>
+        <run_as display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period>1970-01-01 00:02:00</run_period>
+        <run_start>2019-01-03 21:25:13</run_start>
+        <run_time>1970-01-01 08:00:00</run_time>
+        <run_type>periodically</run_type>
+        <script><![CDATA[gs.debug("CZDEBUG: In the Funding Request Approval Reminder Notification Scheduled Job");
+var arrUtil = new global.ArrayUtil();            //set up array to find all pending approvals for users
+var answer = [];
+var app = new GlideRecord('sysapproval_approver');     //set up variable to retrieve approvals that are pending
+app.addQuery('state','requested');                    //only retrieve approvals if they are pending (in requested state)
+app.addQuery('sysapproval.sys_class_name', 'x_87711_annual_fun_funding_request');     //only retrieve approvals for funding reqs
+app.orderBy('approver');
+app.query();  //retrieve all approvals that meet our query
+// step through the approvals one by one
+while(app.next()) {
+	//if the approver is not currently in our list, add them (next line adds them)
+	if (arrUtil.indexOf(answer, app.approver.sys_id)==-1) {
+		answer.push(app.approver.sys_id);
+	}
+}
+
+//have array that lists each user who has open change approvals We'll step through each
+for (var i = 0; i < answer.length; i++) {
+	//and fire off the event for each user, passing their sys_id as parm1
+	gs.eventQueue('x_87711_annual_fun.fr.approval.reminder', app, answer[i]);             
+}]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-03 21:35:19</sys_created_on>
+        <sys_id>5bdea65ddbf223002c8ef36f299619bb</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>Funding Request Approval Reminder Notification</sys_name>
+        <sys_package display_value="Annual Funding Requests" source="x_87711_annual_fun">262d2e02db02230092909235ca961955</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Annual Funding Requests">262d2e02db02230092909235ca961955</sys_scope>
+        <sys_update_name>sysauto_script_5bdea65ddbf223002c8ef36f299619bb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-04 17:52:43</sys_updated_on>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>

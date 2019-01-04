@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_register">
+    <sysevent_register action="INSERT_OR_UPDATE">
+        <description>Trigger reminder to approve Funding Requests</description>
+        <event_name>x_87711_annual_fun.fr.approval.reminder</event_name>
+        <fired_by>Scheduled Job, Funding Request Approval Notification</fired_by>
+        <queue/>
+        <suffix>fr.approval.reminder</suffix>
+        <sys_class_name>sysevent_register</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-03 21:24:26</sys_created_on>
+        <sys_id>521eee1ddbf223002c8ef36f2996197f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_87711_annual_fun.fr.approval.reminder</sys_name>
+        <sys_package display_value="Annual Funding Requests" source="x_87711_annual_fun">262d2e02db02230092909235ca961955</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Annual Funding Requests">262d2e02db02230092909235ca961955</sys_scope>
+        <sys_update_name>sysevent_register_521eee1ddbf223002c8ef36f2996197f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-03 21:24:26</sys_updated_on>
+        <table>x_87711_annual_fun_funding_request</table>
+    </sysevent_register>
+</record_update>

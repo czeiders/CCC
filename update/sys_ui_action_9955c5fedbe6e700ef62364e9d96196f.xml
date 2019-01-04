@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
     <sys_ui_action action="INSERT_OR_UPDATE">
         <action_name/>
-        <active>true</active>
+        <active>false</active>
         <client>false</client>
         <client_script_v2/>
         <comments>Transition from 'Submitted' to 'Recommended for Approval'</comments>
@@ -57,15 +57,15 @@ function serverOnSubmitForApproval() {
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>9955c5fedbe6e700ef62364e9d96196f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Recommend for Approval</sys_name>
         <sys_overrides/>
         <sys_package display_value="Annual Funding Requests" source="x_87711_annual_fun">262d2e02db02230092909235ca961955</sys_package>
         <sys_policy/>
         <sys_scope display_value="Annual Funding Requests">262d2e02db02230092909235ca961955</sys_scope>
         <sys_update_name>sys_ui_action_9955c5fedbe6e700ef62364e9d96196f</sys_update_name>
-        <sys_updated_by>czeiders</sys_updated_by>
-        <sys_updated_on>2018-12-26 19:21:36</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-03 14:43:51</sys_updated_on>
         <table>x_87711_annual_fun_funding_request</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>
