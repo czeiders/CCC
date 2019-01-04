@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element audit="true" extends="task" label="Funding Request" max_length="40" name="x_87711_annual_fun_funding_request" sizeclass="5" type="collection">
+    <element audit="true" extends="task" label="Funding Request" max_length="40" name="x_87711_annual_fun_funding_request" sizeclass="23" type="collection">
         <element label="Agency Official" max_length="50" name="agency_official" type="string"/>
         <element label="Amount forecasted" max_length="20" name="amount_forecasted" type="currency"/>
         <element label="Amount Previously approved" max_length="20" name="amount_previously_approved" type="currency"/>
-        <element label="Amount requested" max_length="20" name="amount_requested" type="currency"/>
+        <element label="Amount requested" mandatory="true" max_length="20" name="amount_requested" type="currency"/>
         <element label="Expected Execution" max_length="40" name="expected_execution" type="glide_date"/>
         <element label="Funding Authority" max_length="30" name="funding_authority" type="string"/>
         <element choice="1" label="Funding Request Stage" max_length="80" name="funding_request_stage" type="workflow">
             <choice/>
         </element>
-        <element label="Justification" max_length="200" name="justification" type="string"/>
+        <element label="Justification" mandatory="true" max_length="200" name="justification" type="string"/>
         <element label="Program Name" max_length="50" name="program_name" type="string"/>
         <element label="Requesting Agency" max_length="30" name="requesting_agency" type="string"/>
         <element label="Servicing Agency" max_length="30" name="servicing_agency" type="string"/>
